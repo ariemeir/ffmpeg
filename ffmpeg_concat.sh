@@ -1,3 +1,4 @@
+#Concatenate several video files : put their names in input.txt and run the script 
 cat input.txt
 # Expected output: 
 # file file1.mp4
