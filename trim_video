@@ -1,1 +1,1 @@
-ffmpeg
+ffmpeg -i input_video.mp4 -ss 0:00:00 -t 0:01:30 output_video.mp4
