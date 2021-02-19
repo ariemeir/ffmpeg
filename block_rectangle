@@ -1,2 +1,2 @@
 # draw a semi transparent pink box (400x200) starting from (1550,0)
-ffmpeg -i input.mp4 -filter:v "drawbox=x=1550:y=0:w=400:h=200:color=ping@0.5:t=fill" out.mp4
+ffmpeg -i input.mp4 -filter:v "drawbox=x=1550:y=0:w=400:h=200:color=pink@0.5:t=fill" out.mp4
