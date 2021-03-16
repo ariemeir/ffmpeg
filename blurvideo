@@ -1,0 +1,2 @@
+#5 = radius of blur, 50 will be a strong blur 
+ffmpeg -i intro.mov -vf "boxblur=5:1" intro-blur.mov
