@@ -1,0 +1,2 @@
+#blur the entire screen from t=5sec to 10 sec with strong radius of 50
+ffmpeg -i output.mp4 -vf "boxblur=enable='between(t,5,10)':luma_radius=50" out2.mp4
