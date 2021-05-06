@@ -1,0 +1,6 @@
+//When you have a list of mp4 files and you wanna convert all of them to mp3s to listen on the go and throw in some audio gain to boot
+
+for f in *.mp4; do ffmpeg -i "$f" -vn -ar 44100 -ac 2 -ab 192k -f mp3 -af "volume=20dB" "$f".mp3; done
+
+//see the max gain and the mean gain with this command
+//ffmpeg -i input.mp4 -af "volumedetect" -vn -sn -dn -f null /dev/null
